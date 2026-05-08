@@ -32,7 +32,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://mern-task-manager-steel.vercel.app/"
+    "https://mern-task-manager-steel.vercel.app"
   ],
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
