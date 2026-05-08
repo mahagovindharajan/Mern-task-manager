@@ -30,7 +30,10 @@ const app = express();
 
 // Enable CORS — allows frontend (on a different port/domain) to talk to this API
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: [
+    "http://localhost:5173",
+    "https://mern-task-manager-steel.vercel.app/"
+  ],
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true,
