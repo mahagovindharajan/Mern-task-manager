@@ -1,10 +1,11 @@
 # Task Manager — Full Stack MERN Application
 
+Built with MERN Stack • JWT Authentication • Responsive UI • Deployed on Vercel & Render
+
 A production-ready task management app built with MongoDB, Express, React, and Node.js. Features JWT authentication, full CRUD operations, filtering, searching, sorting, and dashboard statistics.
 
-🔗 **Live Demo:** https://task-manager-yourname.netlify.app  
-🔗 **API Base:** https://task-manager-api.onrender.com
-
+🔗 **Live Demo:** https://mern-task-manager-steel.vercel.app  
+🔗 **API Base:** https://mern-task-manager-41c0.onrender.com
 ---
 
 ## Screenshots
@@ -132,7 +133,7 @@ Install:
 ## 1) Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/task-manager.git
+git clone https://github.com/mahagovindharajan/Mern-task-manager.git
 cd task-manager
 ```
 
@@ -228,7 +229,7 @@ Environment variables:
 MONGO_URI=your MongoDB Atlas connection string
 JWT_SECRET=your production secret key
 JWT_EXPIRE=7d
-FRONTEND_URL=https://your-app.netlify.app
+FRONTEND_URL=https://mern-task-manager-steel.vercel.app
 ```
 
 ---
@@ -237,14 +238,14 @@ FRONTEND_URL=https://your-app.netlify.app
 
 | Setting | Value |
 |--------|------|
-| Base directory | frontend |
-| Build command | npm run build |
-| Publish directory | frontend/dist |
-
+| Framework Preset | Vite |
+| Root Directory | task-manager-frontend |
+| Build Command | npm run build |
+| Output Directory | dist |
 Environment variable:
 
 ```env
-VITE_API_BASE_URL=https://your-api.onrender.com/api
+VITE_API_BASE_URL=https://mern-task-manager-41c0.onrender.com/api
 ```
 
 ---
@@ -395,5 +396,5 @@ MIT License
 
 ## Author
 
-Built by **YOUR_NAME**  
-GitHub: https://github.com/YOUR_USERNAME
+Built by **Maha Govindharajan**  
+GitHub: https://github.com/mahagovindharajan
